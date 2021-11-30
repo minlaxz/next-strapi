@@ -1,0 +1,24 @@
+{
+  "kind": "collectionType",
+  "collectionName": "friends",
+  "info": {
+    "name": "friends"
+  },
+  "options": {
+    "increments": true,
+    "timestamps": true,
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "name": {
+      "type": "string"
+    },
+    "age": {
+      "type": "integer"
+    },
+    "bd": {
+      "type": "date"
+    }
+  }
+}
